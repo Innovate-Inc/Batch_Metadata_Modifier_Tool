@@ -1,6 +1,6 @@
 # Batch Metadata Modifier Toolbar
 
-The Batch Metadata Modifier Toolbar, which is available as an ArcGIS Add-In, currently contains two tools:  1) the Batch Editing Tool, which is additionally available as a standalone Windows executable application, allows users to iteratively update metadata on multiple items, and 2) the Batch Thumbnail Creator, which enables the batch-creation of the graphic that appears in an itemâ€™s metadata to illustrate the dataset.
+The Batch Metadata Modifier Toolbar, which is available as an ArcGIS Add-In, currently contains two tools:  1) the Batch Editing Tool, which is additionally available as a standalone Windows executable application, allows users to iteratively update metadata on multiple items, and 2) the Batch Thumbnail Creator, which enables the batch-creation of the graphic that appears in an item’s metadata to illustrate the dataset.
 
 
 ## Features
@@ -33,3 +33,12 @@ The Batch Metadata Modifier Toolbar, which is available as an ArcGIS Add-In, cur
 - Note: The stand-alone tool can also be launched from ArcCatalog by pressing the tool button with no items selected
 
 
+IMAGE ON GITHUB
+
+![ScreenShot](https://raw.github.com/{username}/{repository}/{branch}/{path})
+
+
+
+IMAGE ON INSIDE
+
+![ScreenShot](https://http://cloud.insideidaho.org/helpdocs/images/batch_metadata_modifier_help_01.jpg)
