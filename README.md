@@ -41,4 +41,4 @@ IMAGE ON GITHUB
 
 IMAGE ON INSIDE
 
-![ScreenShot](https://http://cloud.insideidaho.org/helpdocs/images/batch_metadata_modifier_help_01.jpg)
+![ScreenShot](http://cloud.insideidaho.org/helpdocs/images/batch_metadata_modifier_help_01.jpg)
