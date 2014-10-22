@@ -12,7 +12,7 @@ The Batch Metadata Modifier Toolbar, which is available as an ArcGIS Add-In, cur
 
 ## Requirements
 
-* ArcGIS 10.x (for Add-In) 
+* ArcGIS 10.2x (for Add-In) 
 * Windows OS (for .exe)
 * FGDC CSDGM, ISO 19115, or ArcGIS 1.0 metadata
 
@@ -22,7 +22,7 @@ The Batch Metadata Modifier Toolbar, which is available as an ArcGIS Add-In, cur
 1. ArcGIS Add-In
 
 - Extract the downloaded file
-- With ArcCatalog 10.x closed, double-click "ArcCatalogMetadataModifier10_1.esriAddIn"
+- With ArcCatalog 10.x closed, double-click "ArcCatalogMetadataModifier.esriAddIn"
 - Go to Customize > Toolbars > Batch Metadata Modifier Tools
 - Select items in the 'Contents' window and push one of the buttons on the Toobar
 

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetadataFormLibrary</RootNamespace>
+    <AssemblyName>MetadataFormLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST_MODE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug ESRI|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug ESRI\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FindXMLDocumentName.cs" />
+    <Compile Include="MetaDataImporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetaDataImporter.Designer.cs">
+      <DependentUpon>MetaDataImporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemaUtils.cs" />
+    <Compile Include="MetadataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetadataForm.Designer.cs">
+      <DependentUpon>MetadataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Microsoft\FindTarget.cs" />
+    <Compile Include="Microsoft\FormSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Microsoft\FormSearch.designer.cs">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Microsoft\XPathGenerator.cs" />
+    <Compile Include="NodeData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Events\SaveEvent.cs" />
+    <Compile Include="ThreadSafeUIExt.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="XmlTreeViewFindTarget.cs" />
+    <Compile Include="XMLValidation.cs" />
+    <Compile Include="XMLValidationErrorData.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MetadataForm.resx">
+      <DependentUpon>MetadataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetaDataImporter.resx">
+      <DependentUpon>MetaDataImporter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft\FormSearch.resx">
+      <DependentUpon>FormSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarningIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderWarningIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderErrorIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextErrorIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextWarningIcon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\folderIn.png" />
+    <None Include="Resources\folderIn1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

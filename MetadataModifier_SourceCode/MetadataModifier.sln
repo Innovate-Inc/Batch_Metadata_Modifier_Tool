@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataModifier Form", "MetadataModifier Form\MetadataModifier Form.csproj", "{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataFormLibrary", "MetadataFormLibrary\MetadataFormLibrary.csproj", "{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcCatalogMetadataModifier", "ArcCatalogMetadataModifier\ArcCatalogMetadataModifier.csproj", "{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug ESRI|Any CPU = Debug ESRI|Any CPU
+		Debug ESRI|Mixed Platforms = Debug ESRI|Mixed Platforms
+		Debug ESRI|x86 = Debug ESRI|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug ESRI|Any CPU.ActiveCfg = Debug ESRI|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug ESRI|Mixed Platforms.ActiveCfg = Debug ESRI|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug ESRI|Mixed Platforms.Build.0 = Debug ESRI|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug ESRI|x86.ActiveCfg = Debug ESRI|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug ESRI|x86.Build.0 = Debug ESRI|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|Any CPU.Build.0 = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|x86.ActiveCfg = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Debug|x86.Build.0 = Debug|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|Any CPU.ActiveCfg = Release|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|Any CPU.Build.0 = Release|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|x86.ActiveCfg = Release|x86
+		{E5845B89-EB27-478F-97AE-5F84B9A4C3A3}.Release|x86.Build.0 = Release|x86
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug ESRI|Any CPU.ActiveCfg = Debug ESRI|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug ESRI|Any CPU.Build.0 = Debug ESRI|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug ESRI|Mixed Platforms.ActiveCfg = Debug ESRI|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug ESRI|Mixed Platforms.Build.0 = Debug ESRI|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug ESRI|x86.ActiveCfg = Debug ESRI|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E3F62FC3-979F-4BAF-9B4B-65F0924FB39B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug ESRI|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug ESRI|Any CPU.Build.0 = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug ESRI|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug ESRI|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug ESRI|x86.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5BB48F5B-80E7-4CD0-8399-4DB5ABBB30AA}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
